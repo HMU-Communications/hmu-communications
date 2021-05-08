@@ -28,6 +28,7 @@ h2 {
 
 h3 {
 	font-size: 15px;
+	text-align: center;
 	width: 100%;
 }
 
@@ -38,12 +39,12 @@ h4 {
 
 /* unvisited link */
 a:link {
-  color: #ff6768;
+  color: black;
 }
 
 /* visited link */
 a:visited {
-  color: #d1dae6;
+  color: black;
 }
 
 /* mouse over link */
@@ -88,6 +89,14 @@ p {
 
 .welcome {
 	background-image: url("Pictures/index-header_image.jpg");
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about {
+	background-image: url("Pictures/national-cancer-institute-NFvdKIhxYlU-unsplash.jpg");
   min-height: 600px;
   background-attachment: fixed;
   background-position: center;
@@ -178,10 +187,12 @@ div.gallery img {
 .responsive {
   padding: 0 6px;
   float: left;
+	text-align: center;
   width: 24.99999%;
 }
-.responsive h4 {
-	text-align: center;
+.responsive img {
+	width:50%;
+	border-radius: 100%;
 }
 @media only screen and (min-width: 1001px) {
 	.info {
