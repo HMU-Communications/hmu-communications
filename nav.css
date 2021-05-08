@@ -47,10 +47,24 @@
 
 .footer {
   background-color: blue;
-  height: 250px;
-  padding: 20px;
+  padding: 10px;
   bottom:0;
+	width: 100%;
+	float:left;
   font-family: 'Montserrat', sans-serif;
+}
+
+.footer h1 {
+	text-align: left;
+}
+
+.footer-table {
+	width: 100%;
+	border: 2px solid black;
+}
+
+.footer-table-details {
+	width: 50%;
 }
 
 @media only screen and (min-width: 601px) and (max-width: 1150px) {
