@@ -63,8 +63,6 @@ p {
 
 }
 
-
-
 .button {
 	text-align: center;
 	margin: 20px;
@@ -299,4 +297,29 @@ div.gallery img {
 		width: 100%;
 		text-align: center;
 	}
+}
+
+form{
+	position: relative;
+	left: 9%;
+    margin-top: 60 px;
+}
+.form-control{
+    width: 600px;
+    background: transparent;
+    border:none;
+    outline: none;
+    border: 1px solid white;
+    color: #fff;
+    font-size: 16 pt;
+    margin-bottom: 16 px;
+    font-family: sans-serif;
+}
+::placeholder{
+    color: white;
+    opacity: 1;
+    font-family: sans-serif;
+}
+form .submit{
+	background: #B0E0E6;
 }
