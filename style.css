@@ -15,7 +15,6 @@ body {
 
 h1 {
   font-family: 'Oswald', sans-serif;
-
 	font-size: 35px;
 	color: black;
 	text-align: center;
@@ -250,7 +249,7 @@ div.gallery img {
 	width:50%;
 	border-radius: 100%;
 }
-@media only screen and (min-width: 1001px) {
+@media only screen and (min-width: 1151px) {
 	.info {
 	float: left;
 	position: absolute;
@@ -283,6 +282,12 @@ div.gallery img {
 	}
 	p {
 		font-size: 30px;
+	}
+	h1 {
+		font-size: 60px;
+	}
+	h2 {
+		font-size: 50px;
 	}
 	.sources {
 		margin: 0 150px;
