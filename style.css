@@ -280,6 +280,12 @@ div.gallery img {
 	#main {
 		margin-top: 120px;
 	}
+	ul {
+		font-size: 30px;
+	}
+	table {
+		font-size: 30px;
+	}
 	p {
 		font-size: 30px;
 	}
