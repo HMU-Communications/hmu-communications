@@ -75,10 +75,10 @@
 	padding: 1px 20px;
 }
 
-@media only screen and (min-width: 601px) and (max-width: 1150px) {
+@media only screen and (min-width: 801px) and (max-width: 1150px) {
 	.navbar a {
 		border-bottom: none;
-		font-size: 25px;
+		font-size: 26px;
 	}
 	.title {
 		float: left;
@@ -95,11 +95,7 @@
 	}
 }
 
-@media only screen and (max-width: 600px) {
-	.navbar a {
-		border-bottom: none;
-		font-size: 15px;
-	}
+@media only screen and (max-width: 800px) {
 	.navbar a:hover {
 	  color: white;
 		border-bottom: none;
@@ -116,6 +112,8 @@
 	}
 	.navbar a {
   	float: left;
+		border-bottom: none;
+		font-size: 30px;
   	width: 50%;
   	text-align: center;
 	}

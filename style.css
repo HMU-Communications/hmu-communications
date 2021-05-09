@@ -270,7 +270,7 @@ div.gallery img {
 	}
 }
 
-@media only screen and (min-width: 601px) and (max-width: 1150px) {
+@media only screen and (min-width: 801px) and (max-width: 1150px) {
 	.welcome {
 		background-attachment: scroll;
 	}
@@ -351,7 +351,7 @@ div.gallery img {
 
 }
 /*phone */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
 	.welcome {
 		background-attachment: scroll;
 	}
@@ -359,7 +359,7 @@ div.gallery img {
 		background-attachment: scroll;
 	}
 	#main {
-		margin-top: 150px;
+		margin-top: 200px;
 	}
 	.sources {
 		margin: 0px;
