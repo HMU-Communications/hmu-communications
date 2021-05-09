@@ -296,8 +296,8 @@ div.gallery img {
 		font-size: 50px;
 	}
 	.sources {
-		margin: 0 150px;
-	}
+		margin-left: 150px;
+	} /*need to fix */
 	.index h1 {
 		padding: 0px;
 		font-size: 80px;
