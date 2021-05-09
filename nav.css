@@ -4,7 +4,8 @@
 	z-index: 3;
 }
 .navbar a {
-	color: #d1dae6;
+	color: #555FD3;
+	border-bottom: solid 2px #555FD3;
 	text-decoration: none;
 	font-size: 15px;
   float: left;
@@ -15,20 +16,23 @@
 
 
 .navbar a:hover {
-  color: #263859;
+  color: white;
+	border-bottom: solid 3px white;
 }
 
 .navbar a.active {
-  color: #587291;
+	color: white;
+  border-bottom: solid 3px white;
 }
 
 .navbar a.active:hover {
-  color: #d1455c;
+	color: black;
+	border-bottom: solid 2px black;
 }
 
 
 .header {
-	background-color: rgba(47, 151, 193,.9);
+	background-color: rgba(89, 204, 238,.9);
   position: fixed;
   width: 100%;
   top:0;
@@ -43,6 +47,8 @@
   font-size: 25px;
 	float: left;
   text-decoration: none;
+	font-family: 'Oswald', sans-serif;
+
 }
 
 .footer {
@@ -51,7 +57,6 @@
   bottom:0;
 	width: 100%;
 	float:left;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .footer h1 {
@@ -120,14 +125,14 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background-color: #d1dae6;
+  background-color: white;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #ff6768;
+  background: #555fd3;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #d1455c;
+  background: #59ccee;

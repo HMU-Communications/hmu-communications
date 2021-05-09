@@ -3,9 +3,9 @@
 * {box-sizing: border-box}
 body {
 	margin: 0;
-	background-color: #92DCE5;
+	background-color: #d9f9ff;
 	color: black;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 #main {
@@ -13,7 +13,8 @@ body {
 }
 
 h1 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
+
 	font-size: 35px;
 	color: black;
 	text-align: center;
@@ -22,19 +23,26 @@ h1 {
 
 h2 {
 	font-size: 20px;
+		font-family: 'Oswald', sans-serif;
 	text-align: center;
 	width: 100%;
 }
 
 h3 {
 	font-size: 15px;
+		font-family: 'Oswald', sans-serif;
 	text-align: center;
 	width: 100%;
 }
 
 h4 {
 	font-size: 12px;
+		font-family: 'Oswald', sans-serif;
 	width: 100%;
+}
+
+a {
+	font-family: 'Nunito', sans-serif;
 }
 
 /* unvisited link */
@@ -63,6 +71,7 @@ p {
 
 }
 
+
 .button {
 	text-align: center;
 	margin: 20px;
@@ -83,6 +92,10 @@ p {
 	border: 0;
 }
 
+.sources {
+	margin: 0 475px;
+}
+
 /* Index.html */
 
 .welcome {
@@ -94,13 +107,14 @@ p {
   background-size: cover;
 }
 .welcome-cover {
-	position:absolute;
 	background:dodgerblue;
 	padding-left: 20px;
 	padding-right: 20px;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -50%);
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
 	text-align: center;
 }
 
@@ -126,7 +140,7 @@ p {
   width: 0px;
 	height: 0px;
   background-color: #17223B;
-  color: #d1dae6;
+  color: #d1dae6
   text-align: center;
   padding: 5px 0;
   position: absolute;
@@ -146,6 +160,19 @@ p {
 }
 
 /* art gallery */
+.gallery-section-1 {
+	background-color: #59ccee;
+	float:left;
+	margin: 20px;
+	padding: 20px;
+}
+
+.gallery-section-2 {
+	background-color: #555fd3;
+	float: left;
+	margin: 20px;
+	padding: 20px;
+}
 
 .organized-gallery {
 	float: left;
@@ -158,8 +185,10 @@ p {
 }
 
 hr {
-	border: dashed 2px #d1dae6;
+	height: 2px;
+	background-color: #555fd3;
 	width: 90%;
+	border: none;
 }
 
 .event {
