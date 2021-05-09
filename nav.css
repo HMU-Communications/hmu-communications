@@ -17,12 +17,12 @@
 
 .navbar a:hover {
   color: white;
-	border-bottom: solid 3px white;
+	border-bottom: solid 2px white;
 }
 
 .navbar a.active {
 	color: white;
-  border-bottom: solid 3px white;
+  border-bottom: solid 2px white;
 }
 
 .navbar a.active:hover {
@@ -83,6 +83,7 @@
 		margin: 0;
 		padding-top: 10px;
 		padding-left: 0px;
+		font-size: 30px;
 	}
 	.navbar {
 		float: none;
@@ -91,6 +92,23 @@
 }
 
 @media only screen and (max-width: 600px) {
+	.navbar a {
+		border-bottom: none;
+	}
+	.navbar a:hover {
+	  color: white;
+		border-bottom: none;
+	}
+
+	.navbar a.active {
+		color: white;
+	  border-bottom: none;
+	}
+
+	.navbar a.active:hover {
+		color: black;
+		border-bottom: none;
+	}
 	.navbar a {
   	float: left;
   	width: 50%;
@@ -102,6 +120,7 @@
 		text-align: center;
 		margin: 0;
 		padding-top: 10px;
+		font-size: 30px;
 		padding-left: 0px;
 	}
 	.navbar {

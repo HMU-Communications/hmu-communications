@@ -10,6 +10,7 @@ body {
 
 #main {
   margin-top: 50px;
+
 }
 
 h1 {
@@ -43,6 +44,7 @@ h4 {
 
 a {
 	font-family: 'Nunito', sans-serif;
+	color: black;
 }
 
 /* unvisited link */
@@ -57,18 +59,17 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-  color: #263859;
+  color: #555fd3;
 }
 
 /* selected link */
 a:active {
-  color: #d1455c;
+  color: #59ccee;
 }
 
 p {
 	padding-left: 30px;
 	padding-right: 30px;
-
 }
 
 
@@ -93,7 +94,7 @@ p {
 }
 
 .sources {
-	margin: 0 475px;
+	margin: 0 375px;
 }
 
 /* Index.html */
@@ -105,17 +106,6 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-.welcome-cover {
-	background:dodgerblue;
-	padding-left: 20px;
-	padding-right: 20px;
-	top: 50%;
-	left: 50%;
-	width: 30%;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
 }
 
 .about {
@@ -183,6 +173,23 @@ p {
 	margin: 20px;
 	padding: 20px;
 	color: white;
+}
+
+.services-1 {
+	width: 100%;
+	float:left;
+}
+.services-2 {
+	width: 100%;
+	background-color: #555fd3;
+	float:left;
+	padding: 10px;
+}
+.services-3 {
+	width: 100%;
+	background-color: #59ccee;
+	float:left;
+	padding: 10px;
 }
 
 .organized-gallery {
@@ -264,7 +271,22 @@ div.gallery img {
 	}
 }
 
-@media only screen and (min-width: 601px) and (max-width: 1000px) {
+@media only screen and (min-width: 601px) and (max-width: 1150px) {
+	.welcome {
+		background-attachment: scroll;
+	}
+	.about {
+		background-attachment: scroll;
+	}
+	#main {
+		margin-top: 120px;
+	}
+	p {
+		font-size: 30px;
+	}
+	.sources {
+		margin: 0 150px;
+	}
 	.index h1 {
 		padding: 0px;
 		font-size: 80px;
@@ -319,6 +341,18 @@ div.gallery img {
 }
 /*phone */
 @media only screen and (max-width: 600px) {
+	.welcome {
+		background-attachment: scroll;
+	}
+	.about {
+		background-attachment: scroll;
+	}
+	#main {
+		margin-top: 150px;
+	}
+	.sources {
+		margin: 0px;
+	}
 	.index h1 {
 		padding: 0px;
 		font-size: 10vw;
