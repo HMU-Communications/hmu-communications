@@ -1,7 +1,7 @@
 .navbar {
 	overflow: hidden;
 	width: 65%;
-
+	z-index: 3;
 }
 .navbar a {
 	color: #d1dae6;
