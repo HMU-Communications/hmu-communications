@@ -127,6 +127,16 @@ p {
   background-size: cover;
 }
 
+.index h1 {
+	padding: 0px 20px;
+	font-size: 90px;
+}
+
+.index p {
+	font-size: 30px;
+	text-align: center;
+}
+
 .info { padding: 5px; font-weight: bold; text-align: center;}
 .info h1 {color: #17223B;}
 .info p {padding: 5px; color: #17223B;}
@@ -172,6 +182,7 @@ p {
 	float: left;
 	margin: 20px;
 	padding: 20px;
+	color: white;
 }
 
 .organized-gallery {
@@ -254,6 +265,15 @@ div.gallery img {
 }
 
 @media only screen and (min-width: 601px) and (max-width: 1000px) {
+	.index h1 {
+		padding: 0px;
+		font-size: 80px;
+	}
+
+	.index p {
+		font-size: 30px;
+		text-align: center;
+	}
 	/*index.html*/
 	.info {
 		height: 100%;
@@ -299,6 +319,15 @@ div.gallery img {
 }
 /*phone */
 @media only screen and (max-width: 600px) {
+	.index h1 {
+		padding: 0px;
+		font-size: 10vw;
+	}
+
+	.index p {
+		font-size: 30px;
+		text-align: center;
+	}
 	/*index.html*/
 	.info {
 		height: 100%;
@@ -349,9 +378,9 @@ form {
 .form-control {
     width: 100%;
     background: transparent;
-    border:none;
+		margin: 10px;
     outline: none;
-    border: 1px solid white;
+    border: 2px solid white;
     color: #fff;
     font-family: sans-serif;
 		resize: none;

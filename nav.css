@@ -52,24 +52,27 @@
 }
 
 .footer {
-  background-color: blue;
-  padding: 10px;
+  background-color: #555fd3;
+	color: white;
+  padding: 30px;
   bottom:0;
 	width: 100%;
 	float:left;
 }
 
 .footer h1 {
+	color:white;
 	text-align: left;
 }
 
 .footer-table {
-	width: 100%;
-	border: 2px solid black;
+	padding: 5px;
+	text-align:center;
+	border: 2px solid white;
 }
 
-.footer-table-details {
-	width: 50%;
+.footer-table td {
+	padding: 1px 20px;
 }
 
 @media only screen and (min-width: 601px) and (max-width: 1150px) {
