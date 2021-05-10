@@ -158,6 +158,38 @@ form .submit {
 	background: #B0E0E6;
 }
 
+.tab{
+	overflow:hidden;
+	display: flex;
+	size: 1200px;
+	background: #59ccee;
+}
+
+.tab button{
+	background-color: #59ccee;
+	display: block;
+	padding:14px 16px;
+	border:none;
+	width: 100%;
+	outline:none;
+	cursor: pointer;
+	transition: 0.2s;
+	font-weight: bold;
+}
+
+.tab button:hover{
+	background:#B0E0E6;
+}
+.tab button.active{
+	background: #d1dae6;
+}
+
+.tabcontent{
+	padding: 6px 12px;
+	display: none;
+	border: 1 px solid #ccc;
+	border-top: none;
+}
 
 .info { padding: 5px; font-weight: bold; text-align: center;}
 .info h1 {color: #17223B;}
@@ -172,7 +204,7 @@ form .submit {
   width: 0px;
 	height: 0px;
   background-color: #17223B;
-  color: #d1dae6
+  color: #d1dae6;
   text-align: center;
   padding: 5px 0;
   position: absolute;
