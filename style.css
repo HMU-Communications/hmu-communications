@@ -92,9 +92,18 @@ p {
 	border: 0;
 }
 
-.sources ul {
+
+
+.sources {
 	margin: 0 auto;
+	overflow-wrap: anywhere;
+	word-wrap: anywhere;
 	display: table;
+}
+
+.sources li, h2, h3, h1, {
+	overflow-wrap: anywhere;
+	word-wrap: anywhere;
 }
 
 /* Index.html */
