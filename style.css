@@ -101,11 +101,6 @@ p {
 	display: table;
 }
 
-.sources li, h2, h3, h1, {
-	overflow-wrap: anywhere;
-	word-wrap: anywhere;
-}
-
 /* Index.html */
 
 .welcome {
@@ -302,6 +297,9 @@ div.gallery img {
 }
 
 @media only screen and (min-width: 801px) and (max-width: 1150px) {
+	.sources {
+		margin: 0 20px;
+	}
 	.contact-form textarea {
 		height: 350px;
 	}
@@ -381,6 +379,9 @@ div.gallery img {
 }
 /*phone */
 @media only screen and (max-width: 800px) {
+	.sources {
+		margin: 0 10px;
+	}
 	.contact-form textarea {
 		height: 500px;
 	}
