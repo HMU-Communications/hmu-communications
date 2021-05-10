@@ -1,7 +1,7 @@
 .navbar {
 	overflow: hidden;
 	width: 65%;
-	z-index: 3;
+
 }
 .navbar a {
 	color: #555FD3;
@@ -34,6 +34,7 @@
 .header {
 	background-color: rgba(89, 204, 238,.9);
   position: fixed;
+		z-index: 3;
   width: 100%;
   top:0;
 }
@@ -69,6 +70,11 @@
 	padding: 5px;
 	text-align:center;
 	border: 2px solid white;
+}
+
+.footer-table tr, td,  table {
+	border: 2px solid rgba(255, 255, 255, .9);
+	border-collapse: collapse;
 }
 
 .footer-table td {

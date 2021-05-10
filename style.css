@@ -92,8 +92,9 @@ p {
 	border: 0;
 }
 
-.sources {
-	margin: 0 375px;
+.sources ul {
+	margin: 0 auto;
+	display: table;
 }
 
 /* Index.html */
@@ -125,6 +126,34 @@ p {
 	font-size: 30px;
 	text-align: center;
 }
+.contact-form textarea {
+	height: 200px;
+}
+
+form {
+	z-index: 1;
+	position: relative;
+}
+.form-control {
+    width: 100%;
+    background: transparent;
+		margin: 10px;
+    outline: none;
+    border: 2px solid white;
+    color: #fff;
+    font-family: sans-serif;
+		resize: none;
+		font-size: 20px;
+}
+::placeholder {
+    color: white;
+    opacity: 1;
+    font-family: sans-serif;
+}
+form .submit {
+	background: #B0E0E6;
+}
+
 
 .info { padding: 5px; font-weight: bold; text-align: center;}
 .info h1 {color: #17223B;}
@@ -261,16 +290,12 @@ div.gallery img {
 	}
 	.info a {text-decoration: underline; color: #17223B;}
 	.info a:hover {color: #d1dae6;}
-	.left {
-		border-right: dashed 2px white;
-	}
-
-	.right{
-		border-left: dashed 2px white;
-	}
 }
 
 @media only screen and (min-width: 801px) and (max-width: 1150px) {
+	.contact-form textarea {
+		height: 350px;
+	}
 	.welcome {
 		background-attachment: scroll;
 	}
@@ -280,13 +305,7 @@ div.gallery img {
 	#main {
 		margin-top: 150px;
 	}
-	ul {
-		font-size: 30px;
-	}
-	table {
-		font-size: 30px;
-	}
-	p {
+	ul, table, p, .form-control {
 		font-size: 30px;
 	}
 	h1 {
@@ -295,9 +314,10 @@ div.gallery img {
 	h2 {
 		font-size: 50px;
 	}
-	.sources {
-		margin-left: 150px;
-	} /*need to fix */
+	h3 {
+		font-size: 40px;
+	}
+
 	.index h1 {
 		padding: 0px;
 		font-size: 80px;
@@ -352,6 +372,21 @@ div.gallery img {
 }
 /*phone */
 @media only screen and (max-width: 800px) {
+	.contact-form textarea {
+		height: 500px;
+	}
+	p, ul, table, .form-control {
+		font-size: 30px;
+	}
+	h1 {
+		font-size: 50px;
+	}
+	h2 {
+		font-size: 40px;
+	}
+	h3 {
+		font-size: 35px;
+	}
 	.welcome {
 		background-attachment: scroll;
 	}
@@ -360,9 +395,6 @@ div.gallery img {
 	}
 	#main {
 		margin-top: 200px;
-	}
-	.sources {
-		margin: 0px;
 	}
 	.index h1 {
 		padding: 0px;
@@ -411,31 +443,4 @@ div.gallery img {
 		width: 100%;
 		text-align: center;
 	}
-}
-
-.contact-form textarea {
-	height: 200px;
-}
-
-form {
-	position: relative;
-}
-.form-control {
-    width: 100%;
-    background: transparent;
-		margin: 10px;
-    outline: none;
-    border: 2px solid white;
-    color: #fff;
-    font-family: sans-serif;
-		resize: none;
-		font-size: 20px;
-}
-::placeholder {
-    color: white;
-    opacity: 1;
-    font-family: sans-serif;
-}
-form .submit {
-	background: #B0E0E6;
 }
