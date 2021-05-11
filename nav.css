@@ -4,8 +4,8 @@
 
 }
 .navbar a {
-	color: #555FD3;
-	border-bottom: solid 2px #555FD3;
+	color: #140959;
+	border-bottom: solid 2px #140959;
 	text-decoration: none;
 	font-size: 15px;
   float: left;
@@ -16,8 +16,8 @@
 
 
 .navbar a:hover {
-  color: white;
-	border-bottom: solid 2px white;
+  color: #555fd3;
+	border-bottom: solid 2px #555fd3;
 }
 
 .navbar a.active {
