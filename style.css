@@ -10,7 +10,7 @@ body {
 
 #main {
   margin-top: 50px;
-
+	padding: 0 20px;
 }
 
 h1 {
@@ -129,6 +129,13 @@ p {
   background-size: cover;
 }
 
+iframe {
+	width: 70%;
+	margin: 20px auto;
+	display: block;
+	height: 500px;
+}
+
 .index h1 {
 	padding: 0px 20px;
 	font-size: 90px;
@@ -192,7 +199,7 @@ form .submit {
 }
 .tab button.active{
 	background: #555fd3;
-	
+
 }
 
 .tabcontent{
@@ -288,6 +295,12 @@ hr {
 }
 
 @media only screen and (min-width: 801px) and (max-width: 1150px) {
+	iframe {
+		width: 90%;
+		margin: 10px auto;
+		display: block;
+		height: 400px;
+	}
 	.sources {
 		margin: 0 20px;
 	}
@@ -349,6 +362,12 @@ hr {
 }
 /*phone */
 @media only screen and (max-width: 800px) {
+	iframe {
+		width: 100%;
+		margin: 10px auto;
+		display: block;
+		height: 350px;
+	}
 	.sources {
 		margin: 0 10px;
 	}
