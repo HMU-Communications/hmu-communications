@@ -120,6 +120,14 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.services {
+	background-image: url("Pictures/headway-5QgIuuBxKwM-unsplash.jpg");
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .index h1 {
 	padding: 0px 20px;
@@ -155,18 +163,19 @@ form {
     font-family: sans-serif;
 }
 form .submit {
-	background: #B0E0E6;
+	background: rgb(89, 204, 238);
 }
 
-.tab{
+
+.tab {
 	overflow:hidden;
 	display: flex;
 	size: 1200px;
-	background: #59ccee;
+	background: #140959;
 }
 
 .tab button{
-	background-color: #59ccee;
+	background-color: #140959;
 	display: block;
 	padding:14px 16px;
 	border:none;
@@ -175,13 +184,15 @@ form .submit {
 	cursor: pointer;
 	transition: 0.2s;
 	font-weight: bold;
+	color: white;
 }
 
 .tab button:hover{
-	background:#B0E0E6;
+	background:rgba(89, 204, 238,.9);
 }
 .tab button.active{
-	background: #d1dae6;
+	background: #555fd3;
+	
 }
 
 .tabcontent{
@@ -189,38 +200,6 @@ form .submit {
 	display: none;
 	border: 1 px solid #ccc;
 	border-top: none;
-}
-
-.info { padding: 5px; font-weight: bold; text-align: center;}
-.info h1 {color: #17223B;}
-.info p {padding: 5px; color: #17223B;}
-
-.tooltip {
-  position: relative;
-  display: block;
-}
-
-.tooltip .tooltiptext {
-  width: 0px;
-	height: 0px;
-  background-color: #17223B;
-  color: #d1dae6;
-  text-align: center;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 100;
-  bottom: 100%;
-  left: 0%;
-	font-size: 0px;
-	margin: 0px 0px 10px 0px;
-}
-
-.tooltip:hover .tooltiptext {
- 	width: 100%;
-	font-size: 20px;
-	height: auto;
-	padding: 10px;
-	border: dashed 4px #d1dae6;
 }
 
 /* art gallery */
@@ -236,6 +215,17 @@ form .submit {
 	float: left;
 	margin: 20px;
 	padding: 20px;
+	color: white;
+}
+.gallery-section-3 {
+	background-color: #140959;
+	float: left;
+	margin: 20px;
+	padding: 20px;
+	color: white;
+}
+
+.gallery-section-3 h1 {
 	color: white;
 }
 
@@ -283,27 +273,7 @@ hr {
 	height: 100%;
 	overflow: hidden;
 }
-.paragraphs {
-	height: 250px;
-	overflow: auto;
-	background-color: #17223B;
-	margin: 20px;
-}
 
-div.gallery {
-  border: dashed 4px #d1dae6;
-
-}
-
-div.gallery:hover {
-  border: dashed 4px #17223B;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-	display: block;
-}
 .responsive {
   padding: 0 6px;
   float: left;
@@ -315,17 +285,6 @@ div.gallery img {
 	border-radius: 100%;
 }
 @media only screen and (min-width: 1151px) {
-	.info {
-	float: left;
-	position: absolute;
-	z-index: 1000;
-	left: 5%;
-	top: 5%;
-	height: 75%;
-	width: 35%;
-	}
-	.info a {text-decoration: underline; color: #17223B;}
-	.info a:hover {color: #d1dae6;}
 }
 
 @media only screen and (min-width: 801px) and (max-width: 1150px) {
@@ -339,6 +298,9 @@ div.gallery img {
 		background-attachment: scroll;
 	}
 	.about {
+		background-attachment: scroll;
+	}
+	.services {
 		background-attachment: scroll;
 	}
 	#main {
@@ -367,27 +329,8 @@ div.gallery img {
 		text-align: center;
 	}
 	/*index.html*/
-	.info {
-		height: 100%;
-		width: 100%;
-		float:none;
-		}
-	.welcome img {
-		width: 100%
-	}
-	.info p {
-		padding: 5px;
-		color: #d1dae6;
-	}
-	.info h1 {
-		color: #d1dae6;
-	}
 
 	/* stem.html */
-	.middlegradestem {
-		height: 600px;
-		padding: 10px;
-	}
 	/*gallery*/
 	.responsive {
     width: 49.99999%;
@@ -395,11 +338,6 @@ div.gallery img {
   }
 	.event {
 		width: 100%;
-	}
-	.paragraphs {
-		height: auto;
-		background-color: inherit;
-		margin: 5px;
 	}
 	.button a {
 		float: none;
@@ -435,6 +373,9 @@ div.gallery img {
 	.about {
 		background-attachment: scroll;
 	}
+	.services {
+		background-attachment: scroll;
+	}
 	#main {
 		margin-top: 200px;
 	}
@@ -448,30 +389,9 @@ div.gallery img {
 		text-align: center;
 	}
 	/*index.html*/
-	.info {
-		height: 100%;
-		width: 100%;
-		float:left;
-		}
-	.welcome img {
-		width: 100%
-	}
-	.info p {
-		padding: 5px;
-		color: #d1dae6;
-	}
-	.info h1 {
-		color: #d1dae6;
-	}
 
 	/* stem.html */
-	.middlegradestem {
-		height: 0;
-		padding: 0px;
-		width: 0;
-		border: 0;
-		margin: 0;
-	}
+
 	/*gallery*/
 	.responsive {
 		width: 100%;
