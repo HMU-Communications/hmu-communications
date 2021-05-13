@@ -183,6 +183,7 @@ form .submit {
 
 .tab button{
 	background-color: #140959;
+	font-family: 'Nunito', sans-serif;
 	display: block;
 	padding:14px 16px;
 	border:none;
@@ -319,7 +320,7 @@ hr {
 	#main {
 		margin-top: 150px;
 	}
-	ul, table, p, .form-control {
+	ul, table, p, .form-control, button {
 		font-size: 30px;
 	}
 	h1 {
@@ -374,7 +375,7 @@ hr {
 	.contact-form textarea {
 		height: 500px;
 	}
-	p, ul, table, .form-control {
+	p, ul, table, .form-control, button {
 		font-size: 30px;
 	}
 	h1 {
